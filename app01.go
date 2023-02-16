@@ -16,6 +16,6 @@ func main() {
 
 	// Random Value 1 - 100
 	mrand.Seed(time.Now().UnixNano())
-	fmt.Printf("Math Random: %v\n", mrand.Intn(101-1)+1)
+	fmt.Printf("Math Random: %d\n", mrand.Intn(101-1)+1)
 	// Math Random: 45
 }
